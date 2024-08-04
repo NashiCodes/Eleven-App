@@ -10,7 +10,7 @@ import AudioButton from "@/components/audio-button";
 
 export const voiceColumns: ColumnDef<Voice>[] =
     [{
-        accessorKey: "preview_url", header: "Preview", cell: (cell) => {
+        accessorKey: "preview_url", header: "Prévia", cell: (cell) => {
             return <AudioButton Url={cell.row.original.preview_url}/>
         },
     }, {
@@ -19,19 +19,19 @@ export const voiceColumns: ColumnDef<Voice>[] =
                 variant="ghost"
                 onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
             >
-                Name
+                Nome
                 <ArrowUpDown className="ml-2 h-4 w-4"/>
             </Button>)
         },
     }, {
-        accessorKey: "category", header: "Category",
+        accessorKey: "category", header: "Categoria",
     }, {
         accessorKey: "labels", header: ({column}) => {
             return (<Button
                 variant="ghost"
                 onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
             >
-                Labels
+                Tipos
                 <ArrowUpDown className="ml-2 h-4 w-4"/>
             </Button>)
         }, cell: (cell) => {

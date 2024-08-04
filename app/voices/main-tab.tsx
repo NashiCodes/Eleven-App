@@ -26,7 +26,7 @@ export default function MainTab({Data}: MainTabProps) {
                         <CardHeader>
                             <CardTitle>Vozes</CardTitle>
                             <CardDescription>
-                                Ouça o Preview da voz e selecione a que mais lhe agradar.
+                                Ouça a Prévia da voz e use a que mais lhe agradar.
                             </CardDescription>
                         </CardHeader>
                         <CardContent className="space-y-2 min-w-max">
