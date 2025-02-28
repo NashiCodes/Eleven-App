@@ -14,7 +14,7 @@ export default function RootLayout({children,}: Readonly<{ children: React.React
     <head>
         <meta charSet="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Eleven Apps API Fetcher</title>
+        <title>Eleven Labs API Fetcher</title>
     </head>
     <body>
     <ThemeProvider
